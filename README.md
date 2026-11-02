@@ -12,13 +12,9 @@ AI 智能订舱录单系统是菜鸟国际空运业务的核心自动化解决�
 
 ## 产品演示
 
-> 以下视频完整展示 AI 智能订舱录单系统的全流程操作，涵盖文件上传、自动识别、任务执行、异常处理等核心场景。
+[访问完整产品展示网站](https://yundisheng-svg.github.io/ai-booking-agent/)
 
-<p align="center">
-  <video src="demo/product-demo.mp4" controls width="90%">
-    Your browser does not support the video tag.
-  </video>
-</p>
+网站内嵌完整操作视频、项目海报与指标看板，包含项目简介、核心功能、里程碑、技术架构及核心团队。无需登录，点击页面中的播放器即可观看。
 
 ### 核心指标一览
 
