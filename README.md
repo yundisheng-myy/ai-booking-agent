@@ -10,6 +10,16 @@ AI 智能订舱录单系统是菜鸟国际空运业务的核心自动化解决�
 
 项目自 2025 年 12 月立项，历经三个 Phase、10 个月迭代，已完成**订舱、主单录单、分单录单**三项核心能力建设，覆盖 **9 条核心航线**，累计自动化成功处理 **4,418 单**。
 
+## 产品演示
+
+> 以下视频完整展示 AI 智能订舱录单系统的全流程操作，涵盖文件上传、自动识别、任务执行、异常处理等核心场景。
+
+<p align="center">
+  <video src="demo/product-demo.mp4" controls width="90%">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
 ### 核心指标一览
 
 | 指标 | 数值 |
@@ -56,45 +66,6 @@ AI 智能订舱录单系统是菜鸟国际空运业务的核心自动化解决�
 ### 自动提交与串行调度
 
 上传时可选择开启「自动提交」开关：解析无阻塞异常的任务将自动提交执行；关闭则任务停留在待执行状态，由运营人工发起。分单任务遵循串行规则——主单录入完成后分单才能执行。系统通过幂等键（主单号 + 分单号）自动阻断重复提交。
-
----
-
-## Demo 演示
-
-> 以下三段视频覆盖产品的核心使用场景，建议按顺序观看。
-
-### Demo 1 — 文件上传与自动识别
-
-展示混合文件批量上传、系统自动分类、解析规则匹配的全流程。
-
-<!-- 录制完成后，将 src 替换为视频 URL 或本地路径 -->
-<p align="center">
-  <video src="demo/upload-and-classify.mp4" controls width="80%">
-    Your browser does not support the video tag.
-  </video>
-</p>
-
-### Demo 2 — 任务监控与执行流程
-
-展示主单任务管理页面的全链路进程跟踪、任务状态流转、自动/手动执行触发。
-
-<!-- 录制完成后，将 src 替换为视频 URL 或本地路径 -->
-<p align="center">
-  <video src="demo/task-monitoring.mp4" controls width="80%">
-    Your browser does not support the video tag.
-  </video>
-</p>
-
-### Demo 3 — 异常处理与人工确认
-
-展示异常任务驳回、字段修正、重新提交的闭环操作，以及解析规则的测试与调优。
-
-<!-- 录制完成后，将 src 替换为视频 URL 或本地路径 -->
-<p align="center">
-  <video src="demo/exception-handling.mp4" controls width="80%">
-    Your browser does not support the video tag.
-  </video>
-</p>
 
 ---
 
@@ -179,6 +150,13 @@ AI 智能订舱录单系统是菜鸟国际空运业务的核心自动化解决�
 | 平台后端 | 夏易、光彪、欧仑 |
 | 平台前端 | 甜王、奇点、少若 |
 | 跨境技术 | 江水、归山、马天宇、行俭 |
+
+---
+
+## 项目成果与认可
+
+- **指标看板**：[AI 订舱自动化指标汇总看板](dashboard/metrics-dashboard.html)（浏览器打开可查看完整可视化看板）
+- **结项认可**：项目正式结项时，在 35 人项目群发布结项感谢，收到团队点赞与祝贺（[查看截图](showcase/project-closing.jpg)）
 
 ---
 
